@@ -160,7 +160,6 @@ h3, .sidebar
 
 .work {
 	width: 274px;
-	overflow: auto;
 	position: relative;
 	float: left;
 	margin: 20px 0 25px;
@@ -311,27 +310,76 @@ input[type=submit] {
 
 
 
+
+
 }
 
 
 @media screen and (max-width: 640px) {
 
+/*index*/
+
+.container {
+	width: 100%;
+}
+
+.main-section {
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	max-width: none;
+	float: none;
+	
+}
+
+.sidebar {
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	max-width: none;
+	float: none;
+
+}
+
+
+
 	#logo {
 		width: 100%;
-		clear: both;
+		overflow: visible;
+		margin: 0px;
+	
 
 	}
 
 
 	nav {
 		width: 100%;
-		margin-top: 0px; 
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 10px;
 
 	}
 
+	.main-section {margin-top: 30px; }
+
 	nav a {
 		width: 30%;
-		text-align: center;
+		text-align: center;}
+
+
+	.auth-image {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+/*portfolio*/
+
+
+.work {
+	width: 100%;
+
+}
 
 
 }
